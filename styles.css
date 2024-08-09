@@ -1,0 +1,62 @@
+body {
+    background-image: url(images/recipesTOP3.jpg);
+    background-size: cover;
+}
+
+.titlebg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titlebg, .mainbg {
+    background-color: rgba(248, 243, 239, 0.95);
+    padding-top: 20px;
+}
+
+.titlebg {
+    margin: 50px 250px 5px;
+}
+
+h1 {
+    font-family: 'Copperplate', Georgia, 'Times New Roman', Times, serif;
+    font-size: 44px;
+ }
+
+.listhome {
+    list-style-type: none;
+    margin-top: 40px;
+}
+
+.mainbg {
+    margin: 5px 250px 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.mainbg .listrecipes {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+div.imgbg {
+    background-color: rgba(248, 243, 239, 0.95);
+    padding: 10px;
+    margin: 20px 450px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p.detail {
+    font-size: 20px;
+}
+
+a {
+    color: rgb(92, 32, 32);
+    font-size: 17px;
+}
+
+a:hover {
+    color: rgb(255, 85, 0);
+}

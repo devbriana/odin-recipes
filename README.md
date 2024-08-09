@@ -8,3 +8,11 @@ This project also provided an opportunity for me to practice staging and committ
 
 - **HTML Practice**: Learn the basics of HTML by building a simple recipe website.
 - **Linking**: Understand how to link between different pages and external resources.
+
+## Credits
+
+- Background Photo by Becca Tapert on Unsplash.
+
+
+  
+  
