@@ -12,6 +12,7 @@ This project also provided an opportunity for me to practice staging and committ
 ## Credits
 
 - Background Photo by Becca Tapert on Unsplash.
+- Cook Icon AUTHOR: Icooon Mono, LICENSE: PD License
 
 
   

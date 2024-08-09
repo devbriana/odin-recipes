@@ -7,6 +7,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 50px 250px 5px;
+    position: relative;
 }
 
 .titlebg, .mainbg {
@@ -14,8 +16,13 @@ body {
     padding-top: 20px;
 }
 
-.titlebg {
-    margin: 50px 250px 5px;
+.home-icon {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    cursor: pointer;
 }
 
 h1 {
@@ -23,29 +30,32 @@ h1 {
     font-size: 44px;
  }
 
-.listhome {
-    list-style-type: none;
-    margin-top: 40px;
+.imgbg {
+    background-color: rgba(248, 243, 239, 0.95);
+    padding: 10px;
+    margin: 20px 450px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.mainbg {
+ .mainbg {
     margin: 5px 250px 50px;
     padding-bottom: 50px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.listhome {
+    list-style-type: none;
+    margin-top: 40px;
+}
+
 .mainbg .listrecipes {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: left;
 }
 
-div.imgbg {
-    background-color: rgba(248, 243, 239, 0.95);
-    padding: 10px;
-    margin: 20px 450px;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.listhome li {
+    cursor: pointer;
 }
 
 p.detail {
@@ -59,4 +69,8 @@ a {
 
 a:hover {
     color: rgb(255, 85, 0);
+}
+
+.home-icon:hover {
+    filter: hue-rotate(30deg) brightness(3.5);
 }
