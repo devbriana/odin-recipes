@@ -50,7 +50,7 @@ h1 {
     margin-top: 40px;
 }
 
-.mainbg .listrecipes {
+.listrecipes {
     text-align: left;
 }
 
@@ -58,7 +58,7 @@ h1 {
     cursor: pointer;
 }
 
-p.detail {
+.detail {
     font-size: 20px;
 }
 
